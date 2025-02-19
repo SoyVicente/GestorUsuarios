@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edit this template
--->
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
-
-echo "Bienvenido al Gestor de Usuarios";
-
-
-      ?>
-    </body>
+<head>
+    <title>Registro de Usuarios</title>
+</head>
+<body>
+    <h2>Registro de Usuarios</h2>
+    <form method="POST" action="registro.php">
+        <label>Usuario:</label>
+        <input type="text" name="usuario" required>
+        <br>
+        <label>Contraseña:</label>
+        <input type="password" name="password" required>
+        <br>
+        <button type="submit">Registrarse</button>
+    </form>
+</body>
 </html>
